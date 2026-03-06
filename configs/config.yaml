@@ -1,0 +1,10 @@
+data:
+  n_samples:    400
+  ibd_fraction: 0.50
+  label_noise:  0.00
+  test_size:    0.20
+  seed:         42
+automl:
+  cv_folds:      5
+  flaml_budget:  60    # seconds; increase for deeper search
+  seed:          42
